@@ -23,7 +23,7 @@ NSX Failure Domain Creator will automate the below tasks when working with NSX E
      - pyfiglet -> *python3 -m pip install pyfiglet*
 4. Clone the repository and navigate to NsxAlbCloudMigrator/V1.1/ -> 
    *git clone https://github.com/harikrishnant/NsxFailureDomainCreator.git && cd NsxFailureDomainCreator*
-5. Run *python3 failure_domain_creator.py* and follow the instructions in the menu screeen
+5. Run *python3 failure_domain_creator.py -i <NSX Manager IP/FQDN> -u <NSX_user> -p <NSX_user_password>* and follow the instructions in the menu screeen
 
 ![61](https://user-images.githubusercontent.com/35589049/229488601-92c7a65f-d18d-430f-bede-3d1f4dbf27c3.png)
 
